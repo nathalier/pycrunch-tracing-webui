@@ -1,5 +1,5 @@
 <template>
-  <div class="row">
+  <div class="row text-wrap">
     <div class="col-12 text-monospace text-secondary">
       {{variable.name}}:<span v-if="!has_childs" class="text-light">
             <span v-if="variable.value === null" class="text-danger small"> None</span>
