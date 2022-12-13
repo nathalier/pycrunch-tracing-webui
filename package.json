@@ -8,6 +8,10 @@
     "test:unit": "vue-cli-service test:unit",
     "flow": "flow"
   },
+  "engines": {
+    "npm": "^6.14.16",
+    "node": "^12.22.12"
+  },
   "dependencies": {
     "@pixi/canvas-renderer": "^5.2.1",
     "axios": "^0.19.2",
